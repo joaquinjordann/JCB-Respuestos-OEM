@@ -1,0 +1,1104 @@
+            /*<----------------Barra Navegadora------------------>*/
+            
+            .header {
+                background-color: #000000;
+                top: -35px;
+                left: 0%;
+                opacity: 85%;
+                position: fixed;
+                height: 180px;
+                width: 100%;
+                z-index: 99999;
+            }
+            
+            .nav {
+                top: 5px;
+                left: 0%;
+                position: fixed;
+                background-image: url("img/oem.png");
+                height: 100px;
+                width: 100%;
+                background-position: center;
+                background-size: cover;
+                justify-content: center;
+            }
+            /*<----------------Botones------------------>*/
+            
+            .botones {
+                position: fixed;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                top: 110px;
+                text-decoration: none;
+            }
+            
+            #boton1:hover {
+                color: #FFBF00;
+            }
+            
+            #boton2:hover {
+                color: #FFBF00;
+            }
+            
+            #boton3:hover {
+                color: #FFBF00;
+            }
+            
+            #boton4:hover {
+                color: #FFBF00;
+            }
+            
+            #boton5:hover {
+                color: #FFBF00;
+            }
+            
+            #line {
+                background-color: #ffffff;
+                position: fixed;
+                top: 95px;
+                height: 0.1px;
+                width: 90%;
+            }
+            
+            #boton1 {
+                font-size: 25px;
+                color: #ffff;
+                font-family: 'Squada One', cursive;
+                margin: 0 30px;
+                text-decoration: none;
+            }
+            
+            #boton2 {
+                font-size: 25px;
+                color: #ffff;
+                font-family: 'Squada One', cursive;
+                margin: 0 30px;
+                text-decoration: none;
+            }
+            
+            #boton3 {
+                font-size: 25px;
+                color: #ffff;
+                font-family: 'Squada One', cursive;
+                margin: 0 30px;
+                text-decoration: none;
+            }
+            
+            #boton4 {
+                font-size: 25px;
+                color: #ffff;
+                font-family: 'Squada One', cursive;
+                margin: 0 30px;
+                text-decoration: none;
+            }
+            
+            #boton5 {
+                font-size: 25px;
+                color: #ffff;
+                font-family: 'Squada One', cursive;
+                margin: 0 30px;
+                text-decoration: none;
+            }
+            /*<----------------Botones------------------>*/
+            /*<----------------Barra Navegadora------------------>*/
+            /*<----------------Cuerpo------------------>*/
+            
+            .fondo {
+                background-image: url("img/fondo.png");
+                background-position: center;
+                background-attachment: fixed;
+                position: absolute;
+                top: 0px;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .fondo2 {
+                background-color: #000000;
+                position: absolute;
+                top: 620px;
+                left: 0;
+                height: 50%;
+                width: 100%;
+            }
+            
+            #text1 {
+                font-size: 12.9px;
+                margin: 15px 0;
+                text-align: center;
+                color: #FFBF00;
+                font-family: 'Squada One', cursive;
+            }
+            
+            #text2 {
+                font-size: 20px;
+                font-family: 'Squada One', cursive;
+                color: #ffffff;
+                text-align: center;
+            }
+            
+            #text3 {
+                font-size: 18px;
+                font-family: 'Squada One', cursive;
+                color: #FFBF00;
+                text-align: center;
+            }
+            
+            #text4 {
+                font-size: 20px;
+                font-family: 'Squada One', cursive;
+                color: #ffffff;
+                text-align: center;
+            }
+            
+            #text5 {
+                font-size: 20px;
+                font-family: 'Squada One', cursive;
+                color: #FFBF00;
+                text-align: center;
+            }
+            
+            .links {
+                text-align: center;
+            }
+            
+            #f {
+                font-size: 20px;
+                margin: 0 50px;
+                text-decoration: none;
+                font-family: 'Squada One', cursive;
+                color: #ffffff;
+            }
+            
+            #t {
+                font-size: 20px;
+                margin: 0 50px;
+                text-decoration: none;
+                font-family: 'Squada One', cursive;
+                color: #ffffff;
+            }
+            
+            #b {
+                color: #FFBF00;
+                margin: 0 5px;
+            }
+            /*<----------------Cuerpo------------------>*/
+            /*<----------------Adaptación a celular------------------>*/
+            
+            @media screen and (max-width: 1125px) {
+                .fondo2 {
+                    height: 340px;
+                }
+                .fondo {
+                    background-repeat: no-repeat;
+                    position: fixed;
+                    top: 0px;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                }
+                .botones {
+                    top: 110px;
+                }
+                #boton1 {
+                    margin: 0 18px;
+                }
+                #boton2 {
+                    margin: 0 18px;
+                }
+                #boton3 {
+                    margin: 0 18px;
+                }
+                #boton4 {
+                    margin: 0 18px;
+                }
+                #boton5 {
+                    margin: 0 18px;
+                }
+                @media screen and (max-width: 950px) {
+                    .botones {
+                        top: 110px;
+                    }
+                    #boton1 {
+                        margin: 0 12px;
+                    }
+                    #boton2 {
+                        margin: 0 12px;
+                    }
+                    #boton3 {
+                        margin: 0 12px;
+                    }
+                    #boton4 {
+                        margin: 0 12px;
+                    }
+                    #boton5 {
+                        margin: 0 12px;
+                    }
+                }
+                @media screen and (max-width:840px) {
+                    .nav {
+                        top: 10px;
+                        left: 0%;
+                        position: fixed;
+                        background-image: url("img/oem.png");
+                        height: 90px;
+                        width: 100%;
+                    }
+                }
+                @media screen and (max-width: 800px) {
+                    .botones {
+                        top: 110px;
+                    }
+                    #boton1 {
+                        margin: 0 10px;
+                    }
+                    #boton2 {
+                        margin: 0 10px;
+                    }
+                    #boton3 {
+                        margin: 0 10px;
+                    }
+                    #boton4 {
+                        margin: 0 10px;
+                    }
+                    #boton5 {
+                        margin: 0 10px;
+                    }
+                    .fondo2 {
+                        height: 340px;
+                    }
+                    @media screen and (max-width: 770px) {
+                        .botones {
+                            top: 115px;
+                        }
+                        #boton1 {
+                            margin: 0 10px;
+                            font-size: 21px;
+                        }
+                        #boton2 {
+                            margin: 0 10px;
+                            font-size: 21px;
+                        }
+                        #boton3 {
+                            margin: 0 10px;
+                            font-size: 21px;
+                        }
+                        #boton4 {
+                            margin: 0 10px;
+                            font-size: 21px;
+                        }
+                        #boton5 {
+                            margin: 0 10px;
+                            font-size: 21px;
+                        }
+                    }
+                    @media screen and (max-width: 760px) {
+                        .botones {
+                            top: 100px;
+                        }
+                        #boton1 {
+                            font-size: 22px;
+                            margin: 0 10px;
+                        }
+                        #boton2 {
+                            font-size: 22px;
+                            margin: 0 10px;
+                        }
+                        #boton3 {
+                            font-size: 22px;
+                            margin: 0 10px;
+                        }
+                        #boton4 {
+                            font-size: 22px;
+                            margin: 0 10px;
+                        }
+                        #boton5 {
+                            font-size: 22px;
+                            margin: 0 10px;
+                        }
+                        #line {
+                            top: 88px;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 130px;
+                            width: 100%;
+                            z-index: 99999;
+                        }
+                        .nav {
+                            top: 12px;
+                            left: 0%;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 80px;
+                            width: 100%;
+                            background-position: center;
+                            background-size: cover;
+                            justify-content: center;
+                        }
+                        .fondo2 {
+                            background-color: #000000;
+                            position: absolute;
+                            top: 620px;
+                            left: 0;
+                            height: 60%;
+                            width: 100%;
+                        }
+                    }
+                    @media screen and (max-width: 720px) {
+                        .botones {
+                            top: 102px;
+                        }
+                        #boton1 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton2 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton3 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton4 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton5 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                    }
+                    @media screen and (max-width: 680px) {
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 110px;
+                            width: 100%;
+                            z-index: 99999;
+                        }
+                        .nav {
+                            top: 5px;
+                            left: 0%;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 70px;
+                            width: 100%;
+                            background-position: center;
+                            background-size: cover;
+                            justify-content: center;
+                        }
+                        #line {
+                            top: 68px;
+                        }
+                        .botones {
+                            top: 82px;
+                        }
+                    }
+                    @media screen and (max-width: 674px) {
+                        .botones {
+                            top: 82px;
+                        }
+                        #boton1 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton2 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton3 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton4 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                        #boton5 {
+                            font-size: 20px;
+                            margin: 0 10px;
+                        }
+                    }
+                    @media screen and (max-width: 670px) {
+                        .fondo2 {
+                            height: 370px;
+                        }
+                        .botones {
+                            top: 103px;
+                        }
+                        .botones {
+                            top: 82px;
+                        }
+                    }
+                    @media screen and (max-width: 630px) {
+                        .fondo {
+                            background-image: url("img/fondo.png");
+                        }
+                        .fondo2 {
+                            background-color: #000000;
+                            position: absolute;
+                            top: 620px;
+                            left: 0;
+                            height: 65%;
+                            width: 100%;
+                        }
+                    }
+                    @media screen and (max-width: 624px) {
+                        .botones {
+                            top: 84px;
+                        }
+                        #boton1 {
+                            font-size: 18px;
+                            margin: 0 8px;
+                        }
+                        #boton2 {
+                            font-size: 18px;
+                            margin: 0 8px;
+                        }
+                        #boton3 {
+                            font-size: 18px;
+                            margin: 0 8px;
+                        }
+                        #boton4 {
+                            font-size: 18px;
+                            margin: 0 8px;
+                        }
+                        #boton5 {
+                            font-size: 18px;
+                            margin: 0 8px;
+                        }
+                        .fondo2 {
+                            background-color: #000000;
+                            position: absolute;
+                            top: 620px;
+                            left: 0;
+                            height: 70%;
+                            width: 100%;
+                        }
+                    }
+                    @media screen and (max-width: 592px) {
+                        .nav {
+                            top: 18px;
+                            left: 0%;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 60px;
+                            width: 100%;
+                            background-size: cover;
+                            justify-content: center;
+                        }
+                    }
+                    @media screen and (max-width: 569px) {
+                        .fondo2 {
+                            height: 65%;
+                        }
+                        #f {
+                            font-size: 20px;
+                            margin: 0 20px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #t {
+                            font-size: 20px;
+                            margin: 0 20px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #b {
+                            color: #FFBF00;
+                            margin: 0 5px;
+                        }
+                    }
+                    @media screen and (max-width: 553px) {
+                        .botones {
+                            top: 84px;
+                        }
+                        #boton1 {
+                            font-size: 18px;
+                            margin: 0 7px;
+                        }
+                        #boton2 {
+                            font-size: 18px;
+                            margin: 0 7px;
+                        }
+                        #boton3 {
+                            font-size: 18px;
+                            margin: 0 7px;
+                        }
+                        #boton4 {
+                            font-size: 18px;
+                            margin: 0 7px;
+                        }
+                        #boton5 {
+                            font-size: 18px;
+                            margin: 0 7px;
+                        }
+                    }
+                    @media screen and (max-width: 543px) {
+                        .fondo {
+                            background-image: url("img/fondo1.png");
+                        }
+                        .bar>.fa-bars {
+                            color: #353535;
+                            font-size: 35px;
+                            position: absolute;
+                            top: 15px;
+                            right: 15px;
+                        }
+                        .bar>.fa-bars:hover {
+                            color: #FFBF00;
+                        }
+                        .botones {
+                            display: none;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 6px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 45px;
+                            width: 75%;
+                            z-index: 99999999;
+                        }
+                        .fondo2 {
+                            background-color: #000000;
+                            position: absolute;
+                            top: 620px;
+                            left: 0;
+                            height: 65%;
+                            width: 100%;
+                        }
+                    }
+                    @media screen and (max-width: 510px) {
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 6px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 45px;
+                            width: 80%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 500px) {
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 6px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 45px;
+                            width: 80%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 488px) {
+                        .fondo2 {
+                            height: 70%;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 12px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 45px;
+                            width: 85%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 450px) {
+                        #f {
+                            font-size: 20px;
+                            margin: 0 10px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #t {
+                            font-size: 20px;
+                            margin: 0 10px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 12px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 45px;
+                            width: 90%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 435px) {
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 15px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 40px;
+                            width: 85%;
+                            z-index: 99999999;
+                        }
+                        .fondo2 {
+                            background-color: #000000;
+                            position: absolute;
+                            top: 620px;
+                            left: 0;
+                            height: 75%;
+                            width: 100%;
+                        }
+                    }
+                    @media screen and (max-width: 410px) {
+                        #f {
+                            font-size: 20px;
+                            margin: 0 5px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #t {
+                            font-size: 20px;
+                            margin: 0 5px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 15px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 40px;
+                            width: 88%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 390px) {
+                        .fondo {
+                            background-image: url("img/fondo2.png");
+                        }
+                        .bar>.fa-bars {
+                            color: #353535;
+                            font-size: 25px;
+                            position: absolute;
+                            top: 18px;
+                            right: 15px;
+                        }
+                        #f {
+                            font-size: 20px;
+                            margin: 0 2px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #t {
+                            font-size: 20px;
+                            margin: 0 2px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 20px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 35px;
+                            width: 82%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 377px) {
+                        #f {
+                            font-size: 18px;
+                            margin: 0 2px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #t {
+                            font-size: 18px;
+                            margin: 0 2px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                    }
+                    @media screen and (max-width: 360px) {
+                        .bar>.fa-bars {
+                            color: #353535;
+                            font-size: 25px;
+                            position: absolute;
+                            top: 20px;
+                            right: 15px;
+                        }
+                        .bar>.fa-bars:hover {
+                            color: #FFBF00;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 60px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 20px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 35px;
+                            width: 88%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 349px) {
+                        .bar>.fa-bars {
+                            color: #353535;
+                            font-size: 20px;
+                            position: absolute;
+                            top: 18px;
+                            right: 15px;
+                        }
+                        .bar>.fa-bars:hover {
+                            color: #FFBF00;
+                        }
+                        .fondo2 {
+                            height: 75%;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 50px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 18px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 25px;
+                            width: 80%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 344px) {
+                        #f {
+                            font-size: 16px;
+                            margin: 0 2px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #t {
+                            font-size: 16px;
+                            margin: 0 2px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #text1 {
+                            font-size: 12.9px;
+                            margin: 15px 0;
+                            text-align: center;
+                            color: #FFBF00;
+                            font-family: 'Squada One', cursive;
+                        }
+                        #text2 {
+                            font-size: 18px;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                            text-align: center;
+                        }
+                        #text3 {
+                            font-size: 18px;
+                            font-family: 'Squada One', cursive;
+                            color: #FFBF00;
+                            text-align: center;
+                        }
+                        #text4 {
+                            font-size: 18px;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                            text-align: center;
+                        }
+                        #text5 {
+                            font-size: 18px;
+                            font-family: 'Squada One', cursive;
+                            color: #FFBF00;
+                            text-align: center;
+                        }
+                    }
+                    @media screen and (max-width: 337px) {
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 50px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 18px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 30px;
+                            width: 82%;
+                            z-index: 99999999;
+                        }
+                        .fondo2 {
+                            background-color: #000000;
+                            position: absolute;
+                            top: 620px;
+                            left: 0;
+                            height: 80%;
+                            width: 100%;
+                        }
+                    }
+                    @media screen and (max-width: 315px) {
+                        .fondo2 {
+                            height: 80%;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 50px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 18px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 30px;
+                            width: 88%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 312px) {
+                        #f {
+                            font-size: 16px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                        #t {
+                            font-size: 16px;
+                            text-decoration: none;
+                            font-family: 'Squada One', cursive;
+                            color: #ffffff;
+                        }
+                    }
+                    @media screen and (max-width: 293px) {
+                        .bar>.fa-bars {
+                            color: #ffffff;
+                            font-size: 18px;
+                            position: absolute;
+                            top: 13px;
+                            right: 15px;
+                        }
+                        .bar>.fa-bars:hover {
+                            color: #FFBF00;
+                        }
+                        .fondo2 {
+                            height: 85%;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 40px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 14px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 25px;
+                            width: 86%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 267px) {
+                        .fondo2 {
+                            height: 90%;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 40px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 14px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 25px;
+                            width: 90%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 266px) {
+                        .bar>.fa-bars {
+                            color: #ffffff;
+                            font-size: 15px;
+                            position: absolute;
+                            top: 15px;
+                            right: 10px;
+                        }
+                        .bar>.fa-bars:hover {
+                            color: #FFBF00;
+                        }
+                        .fondo2 {
+                            height: 120%;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 40px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 14px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 25px;
+                            width: 90%;
+                            z-index: 99999999;
+                        }
+                    }
+                    @media screen and (max-width: 173px) {
+                        .fondo2 {
+                            height: 130%;
+                        }
+                        .header {
+                            background-color: #000000;
+                            top: 0;
+                            left: 0%;
+                            opacity: 85%;
+                            position: fixed;
+                            height: 40px;
+                            width: 100%;
+                        }
+                        .nav {
+                            top: 14px;
+                            left: 0;
+                            position: fixed;
+                            background-image: url("img/oem.png");
+                            height: 25px;
+                            width: 90%;
+                            z-index: 99999999;
+                        }
+                    }
+                }
+            }
+            /*<----------------Adaptación a celular------------------>*/
